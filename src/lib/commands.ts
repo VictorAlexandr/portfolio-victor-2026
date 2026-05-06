@@ -53,17 +53,15 @@ data strategy & analytics · ai architect · brazil
 
 i work at the boundary between fluid rule (llm) and hard rule
 (sql, code, schema). i like systems that decide with little
-supervision and audit what they decide. pulling operations out
-of the spreadsheet-on-spreadsheet world and onto a versioned
-stack with ai in the loop.`,
+supervision and audit what they decide. moving manual analytics
+flows onto a versioned stack with ai in the loop.`,
   pt: `victor alexandre fernandes
 data strategy & analytics · arquiteto de ia · brasil
 
 trabalho na fronteira entre regra fluida (llm) e regra dura (sql,
 código, schema). gosto de sistemas que decidem com pouca
-supervisão e auditam o que decidem. estou tirando operações do
-mundo planilha-em-planilha e colocando num stack versionado, com
-ia no loop.`,
+supervisão e auditam o que decidem. movendo fluxos analíticos
+manuais pra um stack versionado, com ia no loop.`,
 };
 
 const STACK_TXT = {
@@ -83,14 +81,14 @@ const NOW_TXT = {
   en: `2026-05-06 — wednesday
 
 · polishing the official dashboard (media, projection, closings tabs)
-· building ai-hub — internal rag serving any ai via mcp
+· building ai-hub — rag memory layer exposed via mcp
 · first model in spark-ml landing in ci (lead scoring)
 · studying spark-topologies — hand-tracking + voyage embeddings
 · enrolled in postgrad in cloud & edge computing at anhembi`,
   pt: `2026-05-06 — quarta-feira
 
 · polindo o dashboard oficial (tabs midia, projeção, fechamentos)
-· construindo ai-hub — rag interno servindo qualquer ia via mcp
+· construindo ai-hub — camada de memória rag exposta via mcp
 · primeiro modelo do spark-ml entrando em ci (lead scoring)
 · estudando spark-topologies — hand-tracking + voyage embeddings
 · cursando pós em cloud & edge computing na anhembi`,

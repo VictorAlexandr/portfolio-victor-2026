@@ -45,7 +45,7 @@ const SNIPPETS = [
   "yield chunk",
   "lambda x: x.upper()",
   "model='claude-sonnet-4-6'",
-  "SELECT * FROM bypass_*",
+  "SELECT * FROM events",
   "df = pl.read_parquet(",
   "for row in rows:",
   "raise ValueError(",
