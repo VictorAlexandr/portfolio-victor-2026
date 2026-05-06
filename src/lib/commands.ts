@@ -51,17 +51,15 @@ const WHOAMI = {
   en: `victor alexandre fernandes
 data strategy & analytics · ai architect · brazil
 
-i work at the boundary between fluid rule (llm) and hard rule
-(sql, code, schema). i like systems that decide with little
-supervision and audit what they decide. moving manual analytics
-flows onto a versioned stack with ai in the loop.`,
+i like systems that decide with little supervision and audit
+what they decide. i move manual flows onto a versioned stack
+with ai in the loop.`,
   pt: `victor alexandre fernandes
 data strategy & analytics · arquiteto de ia · brasil
 
-trabalho na fronteira entre regra fluida (llm) e regra dura (sql,
-código, schema). gosto de sistemas que decidem com pouca
-supervisão e auditam o que decidem. movendo fluxos analíticos
-manuais pra um stack versionado, com ia no loop.`,
+gosto de sistemas que decidem com pouca supervisão e auditam
+o que decidem. levo fluxos manuais pra um stack versionado,
+com ia no loop.`,
 };
 
 const STACK_TXT = {
@@ -84,7 +82,7 @@ const NOW_TXT = {
 · building ai-hub — rag memory layer exposed via mcp
 · first model in spark-ml landing in ci (lead scoring)
 · studying spark-topologies — hand-tracking + voyage embeddings
-· enrolled in postgrad in cloud & edge computing at anhembi`,
+· taking the postgrad in cloud & edge computing at anhembi`,
   pt: `2026-05-06 — quarta-feira
 
 · polindo o dashboard oficial (tabs midia, projeção, fechamentos)
@@ -108,10 +106,7 @@ const PRINCIPLES_TXT = {
     trust is built, not default.
 
 04  density > volume
-    one real number beats ten adjectives.
-
-05  no ai-portfolio look
-    if the portfolio reminds you of another portfolio, throw it out.`,
+    one real number beats ten adjectives.`,
   pt: `01  determinismo > intuição
     llm onde a regra é fluida; código onde ela existe.
     nunca o contrário.
@@ -125,10 +120,7 @@ const PRINCIPLES_TXT = {
     confiança é build, não default.
 
 04  densidade > volume
-    1 número real vale mais que 10 adjetivos.
-
-05  sem cara de ia
-    se o portfolio te lembra outro portfolio, joga fora.`,
+    1 número real vale mais que 10 adjetivos.`,
 };
 
 const CONTACT_TXT = {

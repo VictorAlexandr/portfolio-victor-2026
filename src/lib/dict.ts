@@ -35,7 +35,7 @@ export const dict: Record<Lang, {
       topbar: "DATA STRATEGY · AI ARCHITECTURE · BRAZIL · 2026",
       vol: "VOL. 01 / Nº 06",
       subtitle:
-        "I work at the boundary between fluid rule (LLM) and hard rule (SQL, code, schema). I build dashboards, agents and pipelines that decide with little supervision and audit what they decide.",
+        "I build dashboards, agents and pipelines that decide with little supervision and audit what they decide. Currently coordinating data strategy at Spark.",
       cta: {
         console: "open interactive console",
         exp: "view experience",
@@ -44,7 +44,7 @@ export const dict: Record<Lang, {
       meta: {
         currently: { label: "Currently", value: "Data Strategy & Analytics · Spark" },
         stack: { label: "Core stack", value: "Postgres · Next.js · Python · Claude" },
-        live: { label: "Live", value: "9 systems running today" },
+        live: { label: "Live", value: "8 systems running today" },
         studying: { label: "Studying", value: "Postgrad · Cloud & Edge · Anhembi" },
       },
     },
@@ -80,7 +80,7 @@ export const dict: Record<Lang, {
       topbar: "DATA STRATEGY · ARQUITETURA DE IA · BRASIL · 2026",
       vol: "VOL. 01 / Nº 06",
       subtitle:
-        "Trabalho na fronteira entre regra fluida (LLM) e regra dura (SQL, código, schema). Construo dashboards, agentes e pipelines que decidem com pouca supervisão e auditam o que decidem.",
+        "Construo dashboards, agentes e pipelines que decidem com pouca supervisão e auditam o que decidem. Hoje coordeno data strategy na Spark.",
       cta: {
         console: "abrir console interativo",
         exp: "ver atuação",
@@ -89,7 +89,7 @@ export const dict: Record<Lang, {
       meta: {
         currently: { label: "Atualmente", value: "Data Strategy & Analytics · Spark" },
         stack: { label: "Stack core", value: "Postgres · Next.js · Python · Claude" },
-        live: { label: "Em produção", value: "9 sistemas vivos hoje" },
+        live: { label: "Em produção", value: "8 sistemas vivos hoje" },
         studying: { label: "Estudando", value: "Pós em Cloud & Edge · Anhembi" },
       },
     },

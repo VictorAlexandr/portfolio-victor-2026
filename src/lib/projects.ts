@@ -63,7 +63,7 @@ const projectsRaw: ProjectRaw[] = [
     name: "monday-agent",
     status: "prod",
     stack: ["Next.js", "Voyage", "Claude", "Supabase"],
-    role: { en: "Conversational agent · Monday.com", pt: "Agente conversacional · Monday.com" },
+    role: { en: "Q&A agent over Monday boards", pt: "Agente de Q&A sobre boards do Monday" },
     blurb: {
       en: "Talks about any item in a Monday board. RAG via Voyage embeddings, context assembled on the fly, streaming answers.",
       pt: "Conversa sobre qualquer item de um board do Monday. RAG via Voyage embeddings, contexto montado on-the-fly, resposta em streaming.",
@@ -78,7 +78,7 @@ const projectsRaw: ProjectRaw[] = [
     name: "ga4-agent",
     status: "internal",
     stack: ["Next.js", "GA4 API", "Claude"],
-    role: { en: "Conversational agent · GA4", pt: "Agente conversacional · GA4" },
+    role: { en: "Natural-language GA4 client", pt: "Cliente GA4 em linguagem natural" },
     blurb: {
       en: "Queries GA4 in natural language with drill-down and on-demand charts. Analytics agent.",
       pt: "Consulta GA4 em linguagem natural com drill-down e gráficos gerados sob demanda. Agente de análise.",
@@ -185,8 +185,8 @@ const projectsRaw: ProjectRaw[] = [
     stack: ["Next.js", "Tailwind"],
     role: { en: "Agents showcase", pt: "Showcase dos agentes" },
     blurb: {
-      en: "Showcase page for the 6 Hermes agents. Minimalist cyberpunk layout.",
-      pt: "Página de apresentação dos 6 agentes Hermes. Layout cyberpunk minimalista.",
+      en: "Showcase page for the 6 Hermes agents. Static, single page.",
+      pt: "Página de apresentação dos 6 agentes Hermes. Estática, página única.",
     },
     metric: {
       en: "Next.js 16 · local port 3004",
@@ -252,8 +252,8 @@ export function getExperience(lang: Lang): RoleBlock[] {
               : "Agentes de IA · GA4, Monday e o radar",
           body:
             lang === "en"
-              ? "In production: GA4 agent (conversational analytics), Monday agent (RAG over boards), messaging agents with model-gated routing. On the radar: growth, product and sales agents."
-              : "Em produção: agente GA4 (analytics conversacional), agente Monday (RAG sobre boards), agentes de messaging com roteamento model-gated. No radar: agente de growth, agente de produto, agente comercial.",
+              ? "In production: GA4 agent (analytics in natural language), Monday agent (RAG over boards), messaging agents that pass through a second-model verification gate. On the radar: growth, product and sales agents."
+              : "Em produção: agente GA4 (analytics em linguagem natural), agente Monday (RAG sobre boards), agentes de messaging que passam por gate de verificação de outro modelo. No radar: agente de growth, agente de produto, agente comercial.",
         },
         {
           slug: "automation",
@@ -345,7 +345,7 @@ export function getEducation(lang: Lang): EducationItem[] {
       ongoing: false,
       note:
         lang === "en"
-          ? "statistics, predictive modeling, ML and data engineering fundamentals."
+          ? "statistics, predictive modeling, ML, and data engineering fundamentals."
           : "estatística, modelagem preditiva, fundamentos de ML e engenharia de dados.",
     },
   ];
